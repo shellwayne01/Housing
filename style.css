@@ -1,0 +1,45 @@
+.header{
+	background: #ffaa00;
+	padding-top: 5px;
+	padding-bottom: 5px
+	border-style: double;
+	border: solid white;
+
+}
+.header h1 {
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+body{
+	background: #ffcc66;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffaa00;
+    opacity: 0.9;
+    border-radius: 10px;
+    border-style: double;
+	border: solid white;
+	float: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
