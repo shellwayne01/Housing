@@ -148,4 +148,28 @@ button{
     cursor: pointer;
 }
 
+.footer{
+	background: #ffaa00;
+	padding-top: 5px;
+	padding-bottom: 5px
+	border-style: double;
+	border: solid white;
+	margin-top: 15px;
+}
 
+.footer h5{
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+
+.social-media{
+	width: 100%;
+	width: 30px;
+	margin-left: 5px;
+
+}
+
+.links:hover{
+	opacity: 0.5;
+}
