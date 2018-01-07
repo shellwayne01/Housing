@@ -1,6 +1,5 @@
-body {
+h1{
     padding-left: 3%;
-    padding-right: 3%;
 }
 
 .info {
@@ -18,10 +17,19 @@ label {
 }
 
 .radio {
+    width:100%;
     margin:10px;
 }
 
+#DonationText {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
 #DonateButton {
+    /*top px, left px*/
+    margin: 30px 10px; 
     width: 15%;
     height: 50px;
     color: white;
