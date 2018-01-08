@@ -1,0 +1,275 @@
+ing/style.css
+8c52ee7  16 hours ago
+@Mark-Ammari Mark-Ammari modified index.html and style.css by adding housing images, a descrip…
+2 contributors @Mark-Ammari @shellwayne01
+RawBlameHistory     
+152 lines (126 sloc)  2.17 KB
+.header{
+	background: #ffaa00;
+	padding-top: 5px;
+	padding-bottom: 5px
+	border-style: double;
+	border: solid white;
+
+}
+.header h1 {
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+/*---------------------------*/
+
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+
+body{
+	background: #ffcc66;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffaa00;
+    opacity: 0.9;
+    border-radius: 10px;
+    border-style: double;
+	border: solid white;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.img{
+	width: 100%;
+	border: 5px solid white;
+}
+
+#housing-img{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img2{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img3{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img4{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img5{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img6{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img7{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img8{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#housing-img9{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.mainImage {
+   background: #ffaa00;
+   width: 50%;
+   border: 5px solid white;
+   margin: auto;
+
+   padding: 5%;
+   
+    
+   
+}
+
+
+.mainImage img{
+    width: 100%;
+   
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 5px;
+    float: left;
+     margin-left: 15px;
+     margin-top: 15px;
+     background: #ffaa00;
+     border-radius: 5px;
+    
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+
+}
+
+button{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: none;
+	background-color: lightgrey; 
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#affiliated li{
+   </div>
+    text-align: center;
+    list-style-type: none;
+}
+
+#office{
+    text-align: center;
+    width: 100%;
+}
+
+#affiliated {
+    text-align: center;
+}
+
+#office ul li, h3 {
+    clear: left;
+    text-align:  center;
+    list-style-type: none;
+    
+}
+
+#office h3{
+    color: white;
+    font-family: fantasy;
+}
+
+#office p{
+    
+    text-align: center;
+   
+}
+
+li a.active{
+    background-color: #cc6600;
+    color: white;
+    
+}
+
+#about p{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#social{
+    
+    width: 100%;
+    padding: 41%;
+    padding-bottom: 0%;
+    padding-top: 3%;
+    align-content: center;
+    position: relative;
+    top: -30px;
+    
+    
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa{
+
+    padding: 20px;
+    font-size: 40px;
+    width: 2%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    
+    border-radius: 50%;
+    
+}
+
+.fa :hover{
+    opacity: 0.9;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+   background: #007bb5;
+   color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
