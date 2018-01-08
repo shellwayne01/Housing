@@ -205,10 +205,23 @@ button{
 }
 
 #DonateButton {
-    width: 15%;
+    width: auto;
     height: 50px;
     color: white;
-    font-size: 20pt;
     background-color: darkorange;
     border: 2px solid peachpuff;
+    text-align: center;
 }
+
+@media screen and (min-width: 785px) {
+    #DonateButton {
+        width: 25%;
+        height: 50px;
+        color: white;
+        font-size: 20pt;
+        background-color: darkorange;
+        border: 2px solid peachpuff;
+        text-align: center;
+    }
+}
+    
