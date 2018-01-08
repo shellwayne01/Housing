@@ -188,22 +188,25 @@ button{
     font-size: 12pt;
 }
 
-label {
+.label1 {
     color: #e67300;
     font-size: 16pt;
     position:relative;
     top:-5px;
 }
 
-.radio {
+.label2 {
+    cursor: pointer;
+    display: block;
     margin:10px;
+    font-size: 14pt;
 }
 
 #DonateButton {
     width: 15%;
     height: 50px;
     color: white;
-    font-size: 12pt;
+    font-size: 20pt;
     background-color: darkorange;
     border: 2px solid peachpuff;
 }
