@@ -4,18 +4,17 @@ ing/style.css
 2 contributors @Mark-Ammari @shellwayne01
 RawBlameHistory     
 152 lines (126 sloc)  2.17 KB
-.header{
-	background: #ffaa00;
-	padding-top: 5px;
-	padding-bottom: 5px
-	border-style: double;
-	border: solid white;
+.header{}
 
-}
 .header h1 {
-	text-align: center;
-	color: white;
-	font-family: fantasy;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+     background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: dotted;
+    border: solid white;
 }
 /*---------------------------*/
 
