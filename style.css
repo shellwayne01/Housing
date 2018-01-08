@@ -13,7 +13,8 @@
 }
 /*---------------------------*/
 body{
-	background: #ffcc66;
+/*    previously #ffcc66*/
+	background: #ffcd7f;
 }
 .menu {
     list-style-type: none;
