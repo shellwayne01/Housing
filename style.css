@@ -1,3 +1,9 @@
+ing/style.css
+8c52ee7  16 hours ago
+@Mark-Ammari Mark-Ammari modified index.html and style.css by adding housing images, a descrip…
+2 contributors @Mark-Ammari @shellwayne01
+RawBlameHistory     
+152 lines (126 sloc)  2.17 KB
 .header{
 	background: #ffaa00;
 	padding-top: 5px;
@@ -12,6 +18,14 @@
 	font-family: fantasy;
 }
 /*---------------------------*/
+
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+
 body{
 	background: #ffcc66;
 }
@@ -19,6 +33,7 @@ body{
     list-style-type: none;
     margin: 0;
     margin-top: 5px;
+    margin-bottom: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #ffaa00;
@@ -28,11 +43,11 @@ body{
 	border: solid white;
 }
 
-li {
+.menu li {
     float: left;
 }
 
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -40,7 +55,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: #111;
 }
 
@@ -107,6 +122,23 @@ li a:hover {
 	grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
+.mainImage {
+   background: #ffaa00;
+   width: 50%;
+   border: 5px solid white;
+   margin: auto;
+
+   padding: 5%;
+   
+    
+   
+}
+
+
+.mainImage img{
+    width: 100%;
+   
+}
 
 .card {
     /* Add shadows to create the "card" effect */
@@ -148,28 +180,96 @@ button{
     cursor: pointer;
 }
 
-.footer{
-	background: #ffaa00;
-	padding-top: 5px;
-	padding-bottom: 5px
-	border-style: double;
-	border: solid white;
-	margin-top: 15px;
+#affiliated li{
+   </div>
+    text-align: center;
+    list-style-type: none;
 }
 
-.footer h5{
-	text-align: center;
-	color: white;
-	font-family: fantasy;
+#office{
+    text-align: center;
+    width: 100%;
 }
 
-.social-media{
-	width: 100%;
-	width: 30px;
-	margin-left: 5px;
-
+#affiliated {
+    text-align: center;
 }
 
-.links:hover{
-	opacity: 0.5;
+#office ul li, h3 {
+    clear: left;
+    text-align:  center;
+    list-style-type: none;
+    
+}
+
+#office h3{
+    color: white;
+    font-family: fantasy;
+}
+
+#office p{
+    
+    text-align: center;
+   
+}
+
+li a.active{
+    background-color: #cc6600;
+    color: white;
+    
+}
+
+#about p{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#social{
+    
+    width: 100%;
+    padding: 41%;
+    padding-bottom: 0%;
+    padding-top: 3%;
+    align-content: center;
+    position: relative;
+    top: -30px;
+    
+    
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa{
+
+    padding: 20px;
+    font-size: 40px;
+    width: 2%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    
+    border-radius: 50%;
+    
+}
+
+.fa :hover{
+    opacity: 0.9;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+   background: #007bb5;
+   color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
