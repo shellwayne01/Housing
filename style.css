@@ -225,6 +225,23 @@ li a.active{
     text-align: center;
 }
 
+
+.label1 {
+    color: #e67300;
+    font-size: 16pt;
+    position:relative;
+    top:-5px;
+}
+
+.label2 {
+    cursor: pointer;
+    display: block;
+    margin:10px;
+    font-size: 14pt;
+
+}
+
+
 #social{
     
     width: 100%;
@@ -273,3 +290,4 @@ li a.active{
   background: #125688;
   color: white;
 }
+
