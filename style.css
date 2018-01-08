@@ -182,6 +182,7 @@ button{
 }
 
 .info {
+    display: block;
     width: 95%;
     padding:15px;
     margin-bottom: 15px;
@@ -198,7 +199,8 @@ button{
 .label2 {
     cursor: pointer;
     display: block;
-    margin:10px;
+    width: 25%;
+    margin: 10px;
     font-size: 14pt;
 }
 
